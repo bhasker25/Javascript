@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini project</title>
+	<link href="./bootstrap.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- #################################################################-->
+
+
+<div class="text-white row container-fluid display-flex justify-content-between mx-auto py-3" style="background-color:#0496FF ;">
+	
+	<div class="display-inline">
+		<label for="roll">Roll no</label>
+		<input type="number" id="roll">
+	</div>
+
+	<div class="display-inline">
+		<label for="name">Name</label>
+		<input type="text" id="name">
+	</div>
+
+	<div class="display-inline">
+		<label for="result">Result</label>
+		<input type="text" id="result">
+	</div>
+	<div>
+		<button class="btn btn-outline-light btn-sm px-3" id="add">Add data</button>
+	</div>	
+</div>
+
+
+<table class="table table-hover table-dark table-bordered mt-4 text-center" id="table">
+  <thead>
+    <tr>
+      <th scope="col">Role no</th>
+      <th scope="col">Name</th>
+      <th scope="col">Result</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody class="striped-rows" id="rows"></tbody>
+</table>
+
+
+
+
+
+
+<!-- #################################################################-->
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
